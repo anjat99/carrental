@@ -1,0 +1,126 @@
+@media (max-width:992px) {
+    .aSection{
+        flex-basis: 50%;
+    }
+  }
+  @media only screen and (max-width: 890px) {
+    .imgP img {
+        margin: 30px 38px;
+    }
+    .project>div {
+        width: 60%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .project{
+	    padding: 48px;
+    }
+}
+  @media (max-width:768px) {
+    #menu #logoHeader{
+      display:none;
+    }
+    #menu{
+      display: none;
+    }
+    #hamburgerIkonica {
+        display: block;
+    }
+    #sadrzaj{
+      width:100%;
+    }
+  
+    #sredina{
+      margin:0px auto;
+    }
+   
+    #contact{
+      margin-top: 30%;
+    }
+    .aSection{
+        flex-basis: 100%;
+    }
+    .project {
+		flex-direction: column;
+	}
+	.imgP img {
+		width: 100%;
+		} 
+    .project>div{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .project>div>h3{
+        margin-top: 0;
+    }
+	.line::before{
+		display:none;
+  }
+      /** admin***/
+      .navbar-light .navbar-brand{
+        width: 30%;
+      }
+      #sidebarAdmin{
+        width: 100%;
+      }
+      #sadrzajAdmin{
+        width: 100%;
+      }
+}
+
+@media (max-width:576px) {
+    body #scrollTop {
+        bottom: 5.5%
+    }
+}
+@media only screen and (max-width: 512px) {
+	 #titleAbout{
+        width: 90%;
+    }
+    #titleAbout p{
+	    margin: 51.2px auto 16px 16px;
+	}
+    #navMobile {
+        margin-top: 0;
+	}
+	#navMobile li {
+        font-size: 1em;
+    }
+	.imgP img {
+		width: 80%;
+    	} 
+	#left{
+	    left:0;
+	}
+	#right {  
+	    right: 0;
+	}  
+	.naslov{
+		font-size:1.8em;
+	}
+}
+
+@media (max-width:500px) {
+
+    #over{
+      padding: 10px;
+      height: 100px;
+    }
+}
+@media (max-width:380px) {
+    #over{
+      padding: 10px;
+      height: 100px;
+    }
+}
+@media (max-width:322px) {
+    form{
+      width: 100%;
+    }
+}
+
+
+
+
