@@ -4,7 +4,7 @@
 
 ## About Project
 
-A simple application for managing a car rental company built using PHP 7, Laravel 8, AJAX, MySQL, Bootstrap 4.6.
+A simple application for managing a car rental company built using PHP 7, AJAX, MySQL, Bootstrap 4.4.1.
 
 This application provide functionality for browsing, adding, updating, deleting vehicles in the car fleet and managing the rentals for specific customers.
 
